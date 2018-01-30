@@ -20,6 +20,7 @@ TP [GFLOPS] =  ((2^22 * 2^9 FP ops) / 10^9) /  Exec. Time [s] =  2147,4836 / Exe
 (The exec. time doesn't include the time it requires to move the memory from the host to the device)
                  
 /////
+
 @NVIDIA GTX860M:                t = 7.122 ms;  avg bandwidth = 13.48 GB/s;   avg GFLOPS = 301.53
 
 @DE5-Net (Stratix V 5SGXA7):    t = 17.22 ms;  avg bandwidth = 0.09  GB/s;   avg GFLOPS = 124.71
