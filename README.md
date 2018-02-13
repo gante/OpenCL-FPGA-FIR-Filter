@@ -3,6 +3,9 @@ OpenCL code for big FIR Filters, on FPGAs (also works for GPUs, with the comment
 Minimal performance loss when there are more taps than it fits in a single FPGA pipeline.
 
 
+Resulted in: http://ieeexplore.ieee.org/document/7828456/
+
+
 Problem type: Compute Bound (several operations per load/store)
                 [each filter (complex) tap requires 4 ADD e 4 MUL = 8 FP operations!
                  e.g. for a filter with 64 taps, each output requires 64*8 = 512 = 2^9 FP operations]
